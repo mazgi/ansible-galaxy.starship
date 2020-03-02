@@ -1,0 +1,9 @@
+---
+- name: Test via Vagrant
+  hosts: all
+  roles:
+    - role: ../..
+      become: true
+      vars:
+        starship:
+          version: "0.37.0"

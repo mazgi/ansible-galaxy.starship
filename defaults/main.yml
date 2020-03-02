@@ -1,0 +1,4 @@
+---
+cargo_make_install_directory: "/usr/local/bin"
+cargo_make:
+  version: "0.37.0"
